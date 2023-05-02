@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Language</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="./Css/home.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Caveat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./Css/footer.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-white px-4 border-bottom fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand fs-2" href="#">Sign <span class="text-primary ">Language</span></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5 text-center">
+                        <li class="nav-item">
+                            <a class="nav-link active text-primary" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Products
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="./Pages/signchat.html">SignChat</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="./Pages/product.html">SignLab</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./Pages/technology.html">Technology</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Company
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="./Pages/about.html">About Us</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Contact Us</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner my-1">
+                <div class="carousel-item active">
+                    <img src="./Images/Sl-2.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-md-block">
+                         <h5 class="head-text">We translate sign language. Automatically.</h5>
+                        <p class="text-light head-text-p">SignAll has developed technology leveraging AI and computer
+                            vision that is
+                            able to recognize and translate sign language.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./Images/Sl-8.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-md-block">
+                        <h5 class="head-text">We translate sign language. Automatically.</h5>
+                        <p class="head-text-p">SignAll has developed technology leveraging AI and computer
+                            vision that is
+                            able to recognize and translate sign language. </p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./Images/sign.jpeg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-md-block">
+                        <h5 class="head-text">We translate sign language. Automatically.</h5>
+                        <p class="text-light head-text-p">SignAll has developed technology leveraging AI and computer
+                            vision that is
+                            able to recognize and translate sign language. </p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </header>
+
+    <section class="about my-5">
+        <div class="container">
+            <div class="text-center my-4">
+                <h1 class="f-3" data-aos="fade-up" data-aos-offset="200">Sign <span class="text-primary">Language
+                    </span> technology</h1>
+                <hr / class="w-55 m-auto">
+            </div>
+        </div>
+        <div class="row p-5">
+            <div class="col-sm-12 col-md-6 col-lg-6 col-12">
+                <h1>Deaf and hearing</h1>
+                <p>SignAll is the only developer which successfully employs AI-driven technology for
+                    translating sign language into spoken language.</p>
+
+                <button type="button" class="btn btn-light mb-5" onclick="alertBox()">Learn more about <span class="text-primary">
+                        SL</span></button>
+
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Sign Language Chat
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>We translate sign language. Automatically.</strong> With the help of specialized cameras, the ASL signs are recognized and translated into written English, then displayed to the hearing user on a screen.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Sign Language Practice
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>We translate sign language. Automatically.</strong> With the help of specialized cameras, the ASL signs are recognized and translated into written English, then displayed to the hearing user on a screen.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Sign language Demo
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>We translate sign language. Automatically.</strong> With the help of specialized cameras, the ASL signs are recognized and translated into written English, then displayed to the hearing user on a screen.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-12 col-md-6 col-lg-6 col-12 m-auto text-end " data-aos="fade-right"
+                data-aos-offset="200">
+                <img src="./Images/Sign-2.jpg" alt="" class="img-fluid img-thumbnail">
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-dark services py-5">
+        <div class="container">
+            <div class="text-center my-5">
+                <h1 class="f-3 text-white">See more of what we are up to at <span class="text-primary">SL </span></h1>
+                <hr / class="w-55 m-auto bg-white">
+            </div>
+
+            <div>
+                <div class="row ms-5 ">
+                    <div class="col-sm-12 col-md-4 col-lg-4 col-12 my-5">
+                        <div class="card" style="width: 18rem;">
+                            <img src="./Images/Sign-4.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Body</h5>
+                                <p class="card-text text-center">The space and location used by the signer are part of
+                                    the non-manual
+                                    markers of sign language.</p>
+                                <a href="#" class="btn btn-primary btn-card">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-4 col-lg-4 col-12 mt-5">
+                        <div class="card" style="width: 18rem;">
+                            <img src="./Images/Sign-5.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title text-center ">Hands</h5>
+                                <p class="card-text text-center">The shape, orientation, movement, and location of the
+                                    hands are some of of sign language.</p>
+                                <a href="#" class="btn btn-primary btn-card">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-4 col-lg-4 col-12 mt-5">
+                        <div class="card" style="width: 18rem;">
+                            <img src="./Images/Sign -6.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Face</h5>
+                                <p class="card-text text-center">Other non-manual markers include the eyes, mouth,
+                                    brows, or head movements
+                                    .</p>
+                                <a href="#" class="btn btn-primary btn-card">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+    </section>
+
+    <section class="about my-5">
+
+        <div class="container">
+            <div class="text-center my-4">
+                <h1 class="f-1">Our <span class="text-primary">Vision</span> </h1>
+                <hr / class="w-55 m-auto">
+            </div>
+        </div>
+        <div class="row p-5">
+            <div class="col-sm-12 col-md-6 col-lg-6 col-12 m-auto text-end" data-aos="fade-up-left"
+                data-aos-offset="200">
+                <img src="./Images/about-header.jpg" alt="" class="img-fluid  px-5">
+            </div>
+
+            <div class="col-sm-12 col-md-6 col-lg-6 col-12 py-5">
+                <h1 class="deaf">Access hundreds of ASL videos</h1>
+                <p class="vision">SignLanguage can assist your organization in becoming more accessible to the Deaf and Hard
+                    of
+                    Hearing. With SignLanguage, you are not just promoting sign language learning, but a larger commitment to
+                    ASL
+                    through technology for your employees, customers and community..</p>
+
+                <button type="button" class="btn btn-light mb-5">Learn more about <span class="text-primary">
+                        SL</span></button>
+            </div>
+        </div>
+    </section>
+    <hr / class="w-55 m-auto">
+
+    <section class="about my-5">
+
+        <div class="container">
+            <div class="text-center my-4">
+            </div>
+        </div>
+        <div class="row p-5 mx-5">
+            <div class="col-sm-12 col-md-6 col-lg-6 col-12 py-5">
+                <h1 class="deaf">Leading-edge technology </h1>
+                <p class="vision">Use SignLanguage Online, an ASL app for web, for complete flexibility to practice sign
+                    language on your phone, tablet, or computer.</p>
+
+                <button type="button" class="btn btn-light mb-5">Learn more about <span class="text-primary">
+                        SL</span></button>
+            </div>
+
+            <div class="col-sm-12 col-md-6 col-lg-6 col-12 m-auto text-end " data-aos="fade-right"
+                data-aos-offset="200">
+                <img src="./Images/Sign-10.jpg" alt="" class="img-fluid img-thumbnail">
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="testimonial-container mx-5">
+            <div class="quote-container">
+                <p class="text-center fs-4">“Sign<span class="text-primary">Language</span> not only benefits the Deaf,
+                    but the hearing individuals they interact
+                    with on a daily basis.
+                    Improved communication benefits everyone involved - friends, family, work colleagues, businesses,
+                    and
+                    more.”
+                </p>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-6 col-12 main-random" id="main-random"> </div>
+        </div>
+    </section>
+    <br>
+
+    <Section class="contact">
+        <div class="container">
+            <div class="text-center my-4">
+                <h1 class="f-1">Feel Free<span class="text-primary"> To Connect</span> </h1>
+                <hr / class="w-30 m-auto">
+            </div>
+
+            <div class="row">
+                <div class="col-sm-12  col-lg-6 col-lg-6 col-12 m-auto text-end p-4">
+                    <img src="./Images/Sl-4.jpg" alt="" class="img-fluid  img-thumbnail">
+                </div>
+
+                <div class="col-sm-12  col-lg-6 col-lg-6 col-12">
+                    <form class="row g-3">
+                        <div class="col-md-6">
+                            <label for="inputEmail4" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="inputEmail4">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="inputPassword4" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="inputPassword4">
+                        </div>
+                        <div class="col-12">
+                            <label for="inputAddress" class="form-label">Address</label>
+                            <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="inputCity" class="form-label">City</label>
+                            <input type="text" class="form-control" id="inputCity">
+                        </div>
+                        <div class="col-md-4">
+                            <label for="inputState" class="form-label">State</label>
+                            <select id="inputState" class="form-select">
+                                <option selected>Choose...</option>
+                                <option>...</option>
+                            </select>
+                        </div>
+                        <div class="col-md-2">
+                            <label for="inputZip" class="form-label">Zip</label>
+                            <input type="text" class="form-control" id="inputZip">
+                        </div>
+                        <div class="col-12">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="gridCheck">
+                                <label class="form-check-label" for="gridCheck">
+                                    Check me out
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <button type="submit" class="btn btn-primary">Sign in</button>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </Section>
+
+        <!-- FOOTER SECTION -->
+        <footer>
+            <div class="footer-container-main">
+                <div class="raw">
+                    <div class="footer-containers">
+                        <div class="foorte-logo-container">
+                            <h1 class="footer-h1">Sign <span class="text-primary">Language</span></h1>
+                        </div>
+
+                        <p class="footer-p text-light"> A way of showing thoughtfulness, love and affection
+                            obcaecati.</p>
+                        <div class="media-section-container">
+                            <img src="./Images/footer-img/github-logo.png" alt=""
+                                class="media-section-img media-img-git">
+                            <img src="/Images/footer-img/instagram (1).png" alt=""
+                                class="media-section-img media-img-insta">
+                            <img src="/Images/footer-img/youtube (2).png" alt="" class="media-section-img media-img-yt">
+                        </div>
+                    </div>
+                    <div class="footer-containers">
+                        <ul class="footer-ul">
+                            <h1 class="footer-h1">Quick Links</h1>
+                            <li class="footer-li"><a href="./index.html" class="footer-a"><img
+                                        src="./images/footer-img/home.png" alt="" class="footer-link-img"> Home</a></li>
+                            <li class="footer-li"><a href="./pages/login.html" class="footer-a"><img
+                                        src="./images/footer-img/login.png" alt="" class="footer-link-img"> Login</a>
+                            </li>
+                            <li class="footer-li"><a href="./pages/Aboutus.html" class="footer-a"><img
+                                        src="./images/footer-img/information-button.png" alt=""
+                                        class="footer-link-img">About</a></li>
+                            <li class="footer-li"><a href="#" class="footer-a"><img
+                                        src="./images/footer-img/support.png" alt="" class="footer-link-img">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-containers">
+                        <ul class="footer-ul">
+                            <h1 class="footer-h1">Products</h1>
+                            <li class="footer-li"><a href="./pages/Anniversary.html" class="footer-a"><img
+                                        src="./Images/footer-img/chat.png" alt=""
+                                        class="footer-link-img img-heig">SignChat</a></li>
+                            <li class="footer-li"><a href="./pages/birthday.html" class="footer-a"><img
+                                        src="./Images/footer-img/Lab-1.png" alt=""
+                                        class="footer-link-img img-heig">SignLab</a></li>
+                            <li class="footer-li"><a href="./pages/Occasion.html" class="footer-a"><img
+                                        src="./Images/footer-img/tab-2.png" alt="" class="footer-link-img img-heig">Technology</a></li>
+                            <li class="footer-li"><a href="./pages/Cakes.html" class="footer-a"><img
+                                        src="./Images/footer-img/tab.png" alt="" class="footer-link-img  img-heig">SignTab</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-containers">
+                        <ul class="footer-ul">
+                            <h1 class="footer-h1">Contact</h1>
+                            <li class="footer-li"><a href="#" class="footer-a"><img
+                                        src="./images/footer-img/location (1).png" alt=""
+                                        class="footer-link-img">Nagpur, Maharashtra</a> </li>
+                            <li class="footer-li"> <a href="#" class="footer-a"><img
+                                        src="./images/footer-img/phone-call (2).png" alt="" class="footer-link-img">+91
+                                    9022448209</a></li>
+                            <li class="footer-li"><a href="#" class="footer-a"><img
+                                        src="./images/footer-img/email (3).png" alt=""
+                                        class="footer-link-img">SignLanguage-info@gmail.com</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <h2 class="contributer-head-title">Developers</h2>
+            <div class="contributors-link-container-main">
+                <div class="contributer-link-containers">
+                    <a href="https://github.com/harshbhange0" class="contributer-link"><img
+                            src="/images/footer-img/github-logo.png" alt="" class="contributor-link-ghthub-logo">
+                        Chandrakant Prajapati
+                    </a>
+
+                </div>
+                <div class="contributer-link-containers">
+                    <a href="https://github.com/Maheshjadhav3329" class="contributer-link"><img
+                            src="/images/footer-img/github-logo.png" alt="" class="contributor-link-ghthub-logo">
+                        Achal Butke
+                    </a>
+
+                </div>
+                <div class="contributer-link-containers">
+                    <a href="https://github.com/mbpatil29" class="contributer-link"><img
+                            src="/images/footer-img/github-logo.png" alt="" class="contributor-link-ghthub-logo">
+                        Sonali Patil
+                    </a>
+
+                </div>
+                <div class="contributer-link-containers">
+                    <a href="https://github.com/Sakibhosale" class="contributer-link"><img
+                            src="/images/footer-img/github-logo.png" alt="" class="contributor-link-ghthub-logo">
+                        Pallavi Maske
+                    </a>
+
+                </div>
+            </div>
+
+
+            <div class="copyrigh-sction">
+                Copyright © Sign Language 2023.
+            </div>
+        </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="app.js"></script>
+
+</body>
+
+</html>

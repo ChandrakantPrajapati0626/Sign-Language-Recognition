@@ -1,0 +1,60 @@
+.main-card-container {
+    display: block;
+    margin: 30px auto;
+    margin-top: 105px;
+    width: 82%;
+    margin-bottom: 60px;
+}
+
+.sign-img {
+    display: block;
+    width: 600px;
+    margin: 20px auto;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.Card-container-title {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:40px ;
+    color: rgb(225, 222, 222);
+    text-shadow: 0px 2px 1px black;
+}
+
+.cart-button {
+    font-size: 17px;
+    padding: 8px 12px;
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: #100e0e;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    width: 250px;
+    font-weight: bold;
+    background-color: #fff;
+}
+.cart-button:hover {
+    box-shadow: 1px 2px 4px rgb(121, 142, 224);
+
+}
+
+
+body {
+    font-family: sans-serif;
+    background-color: black;
+    color: whitesmoke;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p{
+    text-align: center;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 45px;
+}

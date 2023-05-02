@@ -1,0 +1,70 @@
+.parent-container {
+    justify-content: center;
+    background-color: whitesmoke;
+    margin-top: 70px;
+}
+
+.child-container {
+    justify-content: center;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+}
+
+.main-img {
+    height: 480px;
+    width: 802px;
+}
+
+.values-card {
+    height: 300px;
+    border-radius: 15px;
+}
+
+.testimonial-container {
+    height: 300px;
+    background-color: antiquewhite;
+    border-radius: 15px;
+    margin-top: 30px;
+}
+
+.quote-container {
+    padding: 5px;
+    width: 50%;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+
+.our-story-container {
+    margin-top: 40px;
+}
+
+.para-div {
+    width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 17px;
+}
+
+.Leadership-member-container {
+    margin-top: 200px;
+    background-color: whitesmoke;
+    padding: 100px;
+}
+
+.end-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.body {
+    background-color: #f6f6f6;
+}
